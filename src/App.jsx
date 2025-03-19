@@ -6,10 +6,10 @@ import "./index.css";
 // Sample products
 const initialState = {
   products: [
-    { id: 1, name: "Laptop", category: "Electronics", price: 800, rating: 4.5, image: "laptop.jpg" },
-    { id: 2, name: "Phone", category: "Electronics", price: 500, rating: 4.7, image: "phone.jpg" },
-    { id: 3, name: "Shoes", category: "Fashion", price: 100, rating: 4.2, image: "shoes.jpg" },
-    { id: 4, name: "Watch", category: "Fashion", price: 150, rating: 4.3, image: "watch.jpg" }
+    { id: 1, name: "Laptop", category: "Electronics", price: 800, rating: 4.5, image: "https://helios-i.mashable.com/imagery/articles/05djrP5PjtVB7CcMtvrTOAP/images-4.fill.size_2000x1125.v1723100793.jpg" },
+    { id: 2, name: "Phone", category: "Electronics", price: 500, rating: 4.7, image: "https://www.cnet.com/a/img/resize/bde1b8ca1b9373b61bbf9d3e113a81ac76297b51/hub/2024/09/13/0df30744-a33f-4c6e-b58c-a90d7a914089/apple-iphone-16-2815.jpg?auto=webp&height=500" },
+    { id: 3, name: "Shoes", category: "Fashion", price: 100, rating: 4.2, image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8fDA%3D" },
+    { id: 4, name: "Watch", category: "Fashion", price: 150, rating: 4.3, image: "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-ferarcosn-190819.jpg&fm=jpg" }
   ],
   searchQuery: "",
   filterCategory: "",
